@@ -10,7 +10,7 @@
 #define  PORTA_PCTL_R   (*((volatile unsigned long*)  (PORTA_BASE +0x52C)))
 #define  PORTA_DIR_R    (*((volatile unsigned long*)  (PORTA_BASE + 0x400)))
 #define  PORTA_DEN_R    (*((volatile unsigned long*)  (PORTA_BASE + 0x51C)))
-#define  PORTA_DATA_R   (*((volatile unsigned long*)  PORTA_BASE))
+#define  PORTA_DATA_R   (*((volatile unsigned long*)  PORTA_BASE+0x3FC))
 #define  PORTA_AMSEL_R   (*((volatile unsigned long*)  (PORTA_BASE + 0x528) ))
 
 #define  PORTF_BASE      (0x40025000)
