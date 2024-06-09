@@ -16,7 +16,7 @@
 #define  PORTF_BASE      (0x40025000)
 #define  PORTF_DIR_R    (*((volatile unsigned long*)  (PORTF_BASE + 0x400)))
 #define  PORTF_DEN_R    (*((volatile unsigned long*)  (PORTF_BASE + 0x51C)))
-#define  PORTF_DATA_R   (*((volatile unsigned long*)  (PORTF_BASE + 0x00) ))
+#define  PORTF_DATA_R   (*((volatile unsigned long*)  (PORTF_BASE + 0x3FC) ))
 #define  PORTF_AFSEL_R  (*((volatile unsigned long*)  (PORTF_BASE +0x420)))
 #define  PORTF_PCTL_R   (*((volatile unsigned long*)  (PORTF_BASE +0x52C)))
 #define  PORTF_AMSEL_R   (*((volatile unsigned long*)  (PORTF_BASE + 0x528) ))
